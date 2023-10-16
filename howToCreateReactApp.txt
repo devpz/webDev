@@ -1,3 +1,13 @@
+-----------------------------------------------------------------------------------------------------
+to install react 'node_modules' use this command:
+npm install react-scripts --save
+
+
+if react scripts is present in package.json, then just type this command:
+npm install
+-----------------------------------------------------------------------------------------------------
+
+
 npx create-react-app my-app
 cd my-app
 npm start

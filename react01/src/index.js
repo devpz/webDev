@@ -6,7 +6,12 @@ import ReactDOM from "react-dom/client";
 // }
 
 function Greeting() {
-  return React.createElement("h2", {}, "Hello world!");
+  return (
+    <h2>
+      <p>Hello world!
+      </p>
+    </h2>
+  );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
